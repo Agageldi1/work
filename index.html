@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Свято-Михайловский храм</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <script
+      language="Javascript"
+      src="http://script.pravoslavie.ru/icon.php?advanced=1"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="/js/jquery-1.8.2.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="/js/jquery.carouFredSel-6.2.0-packed.js"
+    ></script>
+    <script type="text/javascript" src="/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="/js/Izhitsa_400.font.js"></script>
+    <script
+      type="text/javascript"
+      src="/js/jPlayer/jquery.jplayer.min.js"
+    ></script>
+
+    <script type="text/javascript" language="javascript">
+      Cufon.replace("h1");
+      Cufon.replace("h4");
+      Cufon.replace(".title a");
+      $(function () {
+        $("#slide").carouFredSel({
+          prev: "#prev",
+          next: "#next",
+          auto: false,
+          items: 3,
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#jplayer").jPlayer({
+          ready: function () {
+            $(this).jPlayer("setMedia", {
+              mp3: "/pics/fon.mp3",
+            });
+          },
+          swfPath: "/js/jPlayer",
+          supplied: "mp3",
+          preload: "metadata",
+          volume: 0.8,
+          muted: false,
+          backgroundColor: "#000000",
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="wrapp">
+      <div class="site">
+        <div id="header">
+          <div id="logo"></div>
+          <div class="logo2">
+            Московский патриархат <span>Белгородская митрополия</span>
+          </div>
+          <div id="sub_logo">
+            по благославению митрополита Белгородского и Старооскольского Иоанна
+          </div>
+        </div>
+        <div id="menu">
+          <div class="menu_wrapp">
+            <ul>
+              <li><a href="/about_church/table.html">О храме</a></li>
+
+              <li><a href="/news/news.html">Новости</a></li>
+
+              <li><a href="/read/read.html">Душеполезное чтение</a></li>
+
+              <li><a href="/photo/photo.html">Фотоархив</a></li>
+
+              <li><a href="/contact/contact.html">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="content">
+          <div class="left">
+            <div class="sidebar">
+              <div class="informer">
+                <h1>Престолы храма</h1>
+                <div align="center">
+                  <div class="news_item">
+                    <p><a href="prestol1.html">Архангела Михаила</a></p>
+                    <a href="prestol1.html"
+                      ><img src="/pics/pr1.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="news_item">
+                    <p>
+                      <a href="prestol2.html"
+                        >Святой преподобномученицы Великой Княгини Елисаветы</a
+                      >
+                    </p>
+                    <p>
+                      <a href="prestol2.html"
+                        ><img src="/pics/pr2.jpg" alt=""
+                      /></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div align="center">
+                <div class="news_item">
+                  <h1>
+                    <a href="about_church/sacraments/100.html">Таинства</a>
+                  </h1>
+                </div>
+                <div class="news_item">
+                  <h1>
+                    <a href="about_church/celebration/200.html">Службы</a>
+                  </h1>
+                </div>
+                <div class="news_item">
+                  <h1>
+                    <a href="about_church/parishioner/300.html"
+                      >Страница прихожанина</a
+                    >
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="main">
+              <h1>Новости православия</h1>
+              <div>
+                <div>
+                  <script
+                    language="javascript"
+                    src="http://pravoslavie.ru/cgi-bin/newsblock3.cgi"
+                  ></script>
+                </div>
+
+                <div class="list_carousel">
+                  <ul id="slide">
+                    <li><img src="/img/photo/119.jpg" alt="" /></li>
+
+                    <li><img src="/img/photo/248.jpg" alt="" /></li>
+
+                    <li><img src="/img/photo/593.jpg" alt="" /></li>
+
+                    <li><img src="/img/photo/192.jpg" alt="" /></li>
+
+                    <li><img src="/img/photo/7.jpg" alt="" /></li>
+
+                    <li><img src="/img/photo/56.jpg" alt="" /></li>
+
+                    <li><img src="/img/photo/72.jpg" alt="" /></li>
+                  </ul>
+                  <div class="clearfix"></div>
+                  <a id="prev" class="prev" href="#"></a>
+                  <a id="next" class="next" href="#"></a>
+                </div>
+
+                <div>
+                  <h1>Наши новости</h1>
+                  <div>
+                    <div class="news_item">
+                      <div class="date">02 мая</div>
+                      <div class="lead">
+                        <a href="/news/250.html">ХРИСТОС ВОСКРЕСЕ!</a>
+                      </div>
+                      <div class="text"></div>
+                    </div>
+
+                    <div class="news_item">
+                      <div class="date">25 апреля</div>
+                      <div class="lead">
+                        <a href="/news/249.html"
+                          >С Праздником Входа Господня в Иерусалим — Вербным
+                          воскресением!</a
+                        >
+                      </div>
+                      <div class="text"></div>
+                    </div>
+
+                    <div class="news_item">
+                      <div class="date">09 января</div>
+                      <div class="lead">
+                        <a href="/news/245.html"
+                          >Поздравления с Рождеством самым юным прихожанам храма
+                          передал владыка Иоанн</a
+                        >
+                      </div>
+                      <div class="text"></div>
+                    </div>
+
+                    <div class="news_item">
+                      <div class="date">07 января</div>
+                      <div class="lead">
+                        <a href="/news/244.html"
+                          >Рождественское послание Главы Белгородской
+                          митрополии, митрополита Белгородского и
+                          Старооскольского Иоанна</a
+                        >
+                      </div>
+                      <div class="text"></div>
+                    </div>
+
+                    <div class="news_item">
+                      <div class="date">02 марта</div>
+                      <div class="lead">
+                        <a href="/news/242.html"
+                          >График служения митрополита Иоанна на Первой седмице
+                          Великого поста</a
+                        >
+                      </div>
+                      <div class="text"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="vertical">
+                <div class="left_col">
+                  <div class="title">
+                    <a href="read/read.html">Душеполезное чтение</a>
+                  </div>
+                  <div>
+                    <div class="news_item">
+                      <div class="date">25 апреля</div>
+                      <div class="lead">
+                        <a href="/read/102.html">Ткачев А., Соколов В. и др</a>
+                      </div>
+                      <div class="text">«Свобода любви или идол блуда»</div>
+                    </div>
+
+                    <div class="news_item">
+                      <div class="date">25 апреля</div>
+                      <div class="lead">
+                        <a href="/read/99.html">Дж. Х. Пембер</a>
+                      </div>
+                      <div class="text">«Ранние века земли»</div>
+                    </div>
+
+                    <div class="news_item">
+                      <div class="date">21 февраля</div>
+                      <div class="lead">
+                        <a href="/read/8.html">Юлия Вознесенская</a>
+                      </div>
+                      <div class="text">
+                        ПУТЬ КАССАНДРЫ, ИЛИ ПРИКЛЮЧЕНИЯ С МАКАРОНАМИ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right_col">
+                  <div class="title">
+                    <a href="links.html">Полезные ссылки</a>
+                  </div>
+                  <div class="maintext">
+                    <p>
+                      <a href="http://www.patriarchia.ru" target="_blank"
+                        >Русская Православная Церковь</a
+                      >
+                    </p>
+                    <p>
+                      <a href="http://www.beleparh.ru" target="_blank"
+                        >Белгородская и Старооскольская епархия</a
+                      >
+                    </p>
+                    <p>
+                      <a href="http://belmitropol.ru" target="_blank"
+                        >Белгородская Митрополия</a
+                      >
+                    </p>
+                    <p>
+                      <a href="http://www.bel-seminaria.ru" target="_blank"
+                        >Белгородская Православная Духовная семинария</a
+                      >
+                    </p>
+                    <p>
+                      <a href="http://www.pravoslavie.ru" target="_blank"
+                        >Православие.Ру</a
+                      >
+                    </p>
+                    <p>
+                      <a href="http://www.sedmitza.ru" target="_blank"
+                        >Седьмица.Ру</a
+                      >
+                    </p>
+                    <p>
+                      <a href="http://www.zavet.ru" target="_blank"
+                        >Православное чтение</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="informer">
+              <div class="player">
+                <div id="jplayer"></div>
+                <div id="jp_container_1">
+                  <a href="#" class="jp-play"
+                    >слушать песню «Архангел Михаил»</a
+                  >
+                  <a href="#" class="jp-pause">остановить прослушивание</a>
+                </div>
+              </div>
+            </div>
+            <div class="informer">
+              <h1>Православный календарь</h1>
+              <div>
+                <script
+                  language="Javascript"
+                  src="http://script.days.ru/calendar.php?images=1&hrams=0"
+                ></script>
+              </div>
+            </div>
+            <div class="informer">
+              <h1>Икона дня</h1>
+              <div class="center">
+                <script language="Javascript">
+                  print_img();
+                </script>
+                <h5>
+                  <script language="Javascript">
+                    print_podpis();
+                  </script>
+                </h5>
+              </div>
+            </div>
+            <div class="informer">
+              <h1>Новое на сайте</h1>
+              <div>
+                <div class="news_item">
+                  <div class="date">09 января</div>
+                  <div>
+                    <a href="photo/part52.html"
+                      >в разделе "Фотоархив" размещены фото Рождественского
+                      молебна воспитанников Воскресной школы</a
+                    >
+                  </div>
+                </div>
+
+                <div class="news_item">
+                  <div class="date">01 марта</div>
+                  <div>
+                    <a href="photo/part51.html"
+                      >В разделе "Фотоархив" размещены фото с праздника
+                      Масленицы в Воскресной школе храма</a
+                    >
+                  </div>
+                </div>
+
+                <div class="news_item">
+                  <div class="date">12 января</div>
+                  <div>
+                    <a href="photo/part50.html"
+                      >В раздел "Фотоархив" добавлены фото с Рождественского
+                      утренника в Воскресной школе</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="footer">
+          Свято-Михайловский храм<br />
+          Россия, 308020<br />г.Белгород, ул. Донецкая, 84<br />
+          Тел.: +7 (4722) 54-51-55
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
